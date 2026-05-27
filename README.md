@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project implements a Binary Search Tree using C++.
+This project implements a Binary Search Tree (BST) in C++ using object-oriented programming principles and modern memory management with `std::unique_ptr`.
 
-The program demonstrates insertion, deletion, searching, and tree traversal operations using object-oriented programming and smart pointers.
+The program demonstrates core BST operations including insertion, deletion, searching, and multiple tree traversal algorithms.
 
 ---
 
@@ -12,20 +12,21 @@ The program demonstrates insertion, deletion, searching, and tree traversal oper
 
 - Iterative node insertion
 - Recursive node insertion
-- Binary search tree search
+- Binary Search Tree search operation
 - Node deletion
 - Preorder traversal
 - Inorder traversal
 - Postorder traversal
 - Level order traversal
 - Memory management using `std::unique_ptr`
+- Duplicate values are ignored to maintain BST properties
 
 ---
 
 ## Technologies Used
 
 - C++
-- Object-Oriented Programming
+- Object-Oriented Programming (OOP)
 - Smart Pointers
 - Binary Search Trees
 - Data Structures
@@ -61,10 +62,10 @@ The program demonstrates:
 - Deleting a leaf node
 - Deleting a node with children
 - Deleting the root node
-- Printing the tree using preorder traversal
-- Printing the tree using inorder traversal
-- Printing the tree using postorder traversal
-- Printing the tree using level order traversal
+- Printing preorder traversal
+- Printing inorder traversal
+- Printing postorder traversal
+- Printing level order traversal
 
 ---
 
@@ -80,6 +81,28 @@ make
 
 ```bash
 ./tree_app
+```
+
+---
+
+## Sample Output
+
+```text
+Inorder Traversal:
+20 30 40 50 60 70 80
+
+Searching for 40:
+40 found
+
+Searching for 100:
+100 not found
+
+Deleting leaf node 20...
+Deleting node with children 30...
+Deleting root node 50...
+
+Level Order Traversal:
+60 40 70 80
 ```
 
 ---
@@ -120,3 +143,15 @@ This project helped strengthen understanding of:
 - Smart pointers in modern C++
 - Makefile project organization
 - Object-oriented programming concepts
+
+---
+
+## Future Improvements
+
+Possible future improvements include:
+
+- Tree balancing (AVL Tree or Red-Black Tree)
+- Visualization of the tree structure
+- Unit testing
+- Template support for generic data types
+- Performance analysis for large datasets
