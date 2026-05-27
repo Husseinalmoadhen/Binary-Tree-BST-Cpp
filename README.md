@@ -37,3 +37,8 @@ The program demonstrates insertion, deletion, searching, and tree traversal oper
 
 ```bash
 make
+./tree_app
+
+## Program Output Screenshot
+
+![Program Output](screenshots/output.png)
