@@ -37,8 +37,45 @@ The program demonstrates insertion, deletion, searching, and tree traversal oper
 
 ```bash
 make
+```
+
+---
+
+## Run
+
+```bash
 ./tree_app
+```
+
+---
 
 ## Program Output Screenshot
 
 ![Program Output](screenshots/output.png)
+
+---
+
+## Skills Demonstrated
+
+- Object-Oriented Programming (OOP)
+- Data Structures
+- Binary Search Trees
+- Recursive Programming
+- Memory Management
+- Smart Pointer Usage
+- Tree Traversal Algorithms
+- Software Documentation
+
+---
+
+## Learning Outcomes
+
+This project helped strengthen understanding of:
+
+- Binary Search Tree operations
+- Recursive and iterative algorithms
+- Dynamic memory management
+- Tree traversal techniques
+- Smart pointers in modern C++
+- Makefile project organization
+- Object-oriented programming concepts
