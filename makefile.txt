@@ -1,0 +1,27 @@
+# Compiler and Flags
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17
+
+# Target executable name
+TARGET = tree_app
+
+# Source files and Object files
+SRCS = main.cpp BinaryTree.cpp
+OBJS = $(SRCS:.cpp=.o)
+
+# Default rule: build the app
+all: $(TARGET)
+
+# Link the objects into the final executable
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
+
+# Compile .cpp files into .o files
+%.o: %.cpp BinaryTree.h
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Remove compiled files
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+.PHONY: all clean
