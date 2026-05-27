@@ -33,6 +33,41 @@ The program demonstrates insertion, deletion, searching, and tree traversal oper
 
 ---
 
+## Project Structure
+
+```text
+Binary-Tree-BST-Cpp/
+│
+├── BinaryTree.cpp
+├── BinaryTree.h
+├── main.cpp
+├── Makefile
+├── README.md
+└── screenshots/
+    ├── output.png
+    └── traversal_output.png
+```
+
+---
+
+## Example Operations
+
+The program demonstrates:
+
+- Creating a Binary Search Tree
+- Inserting nodes iteratively
+- Inserting nodes recursively
+- Searching for existing and missing values
+- Deleting a leaf node
+- Deleting a node with children
+- Deleting the root node
+- Printing the tree using preorder traversal
+- Printing the tree using inorder traversal
+- Printing the tree using postorder traversal
+- Printing the tree using level order traversal
+
+---
+
 ## Compile
 
 ```bash
@@ -52,6 +87,12 @@ make
 ## Program Output Screenshot
 
 ![Program Output](screenshots/output.png)
+
+---
+
+## Traversal Output Screenshot
+
+![Traversal Output](screenshots/traversal_output.png)
 
 ---
 
